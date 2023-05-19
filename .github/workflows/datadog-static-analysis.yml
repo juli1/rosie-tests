@@ -3,7 +3,7 @@ on: [push]
 jobs:
   check-quality:
     runs-on: ubuntu-latest
-    name: A job to check my code quality
+    name: Datadog Static Analyzer
     steps:
     - name: Check code meets quality standards
       id: datadog-static-analysis
