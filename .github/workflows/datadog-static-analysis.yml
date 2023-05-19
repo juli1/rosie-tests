@@ -11,4 +11,5 @@ jobs:
       with:
         dd_app_key: ${{ secrets.DD_APP_KEY }}
         dd_api_key: ${{ secrets.DD_API_KEY }}
-
+        dd_env: ${{ vars.DD_ENV }}
+        dd_service: ${{ vars.DD_SERVICE }}
