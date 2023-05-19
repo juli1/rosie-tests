@@ -1,0 +1,12 @@
+version: '2.1'
+orbs:
+  datadog-static-analysis: juli1/rosie-orb@alpha
+jobs:
+  run-test:
+    docker:
+      - image: cimg/node:current
+    steps:
+      - checkout
+      - datadog-static-analysis/analyze
+workflows: null
+
