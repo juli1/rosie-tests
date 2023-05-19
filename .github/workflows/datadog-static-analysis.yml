@@ -7,4 +7,4 @@ jobs:
     steps:
     - name: Check code meets quality standards
       id: datadog-static-analysis
-      uses: juli1/rosie-github-action
+      uses: juli1/rosie-github-action@main
