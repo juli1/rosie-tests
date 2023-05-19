@@ -13,3 +13,4 @@ jobs:
         dd_api_key: ${{ secrets.DD_API_KEY }}
         dd_env: ${{ vars.DD_ENV }}
         dd_service: ${{ vars.DD_SERVICE }}
+        dd_site: "datad0g.com"
