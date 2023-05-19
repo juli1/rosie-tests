@@ -1,3 +1,4 @@
 rulesets:
-  python-security
-  python-best-practices
+  - python-security
+  - python-code-style
+  - python-best-practices
