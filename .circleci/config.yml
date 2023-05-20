@@ -8,5 +8,8 @@ jobs:
     steps:
       - checkout
       - datadog-static-analysis/analyze
-workflows: null
-
+workflows:
+  main:
+    jobs:
+      - build:
+          context: datadog-static-analysis
