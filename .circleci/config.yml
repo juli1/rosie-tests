@@ -7,7 +7,12 @@ jobs:
       - image: cimg/node:current
     steps:
       - checkout
-      - datadog-static-analysis/analyze
+      - datadog-static-analysis/analyze:
+          DD_APP_KEY: $DD_APP_KEY
+          DD_API_KEY: $DD_API_KEY
+          DD_ENV: $DD_ENV
+          DD_SERVICE: $DD_SERVICE
+          DD_SITE: $DD_SITE
 workflows:
   main:
     jobs:
