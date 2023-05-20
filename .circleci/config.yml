@@ -12,7 +12,7 @@ jobs:
           dd_api_key: DD_API_KEY
           dd_env: DD_ENV
           dd_service: DD_SERVICE
-          dd_site: DD_SITE
+          dd_site: datad0g.com
 workflows:
   main:
     jobs:
