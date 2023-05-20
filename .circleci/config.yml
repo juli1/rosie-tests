@@ -1,6 +1,6 @@
 version: '2.1'
 orbs:
-  datadog-static-analysis: juli1/rosie-orb@main
+  datadog-static-analysis: juli1/rosie-orb@dev:alpha
 jobs:
   run-test:
     docker:
