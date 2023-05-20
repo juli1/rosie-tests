@@ -7,8 +7,7 @@ jobs:
       - image: cimg/node:current
     steps:
       - checkout
-      - datadog-static-analysis/analyze:
-          pa
+      - datadog-static-analysis/analyze
 workflows:
   main:
     jobs:
