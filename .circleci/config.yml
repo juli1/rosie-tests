@@ -8,10 +8,10 @@ jobs:
     steps:
       - checkout
       - datadog-static-analysis/analyze:
-          dd_app_key: DD_APP_KEY
-          dd_api_key: DD_API_KEY
-          dd_env: DD_ENV
-          dd_service: DD_SERVICE
+          dd_app_key: $DD_APP_KEY
+          dd_api_key: $DD_API_KEY
+          dd_env: $DD_ENV
+          dd_service: $DD_SERVICE
           dd_site: datad0g.com
 workflows:
   main:
