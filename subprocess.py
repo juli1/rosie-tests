@@ -1,2 +1,2 @@
 import subprocess
-subprocess.Popen('/bin/ls %s' % ('something',), shell=True)
+subprocess.Popen('/bin/ls -l %s' % ('something',), shell=True)
